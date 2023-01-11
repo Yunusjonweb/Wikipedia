@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wikipedia_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wikipedia_title h2 {
+    color: #333;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.wikipedia_paragref p {
+    color: #333;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wikipedia_img img {
+    object-fit: cover;
+    margin: 20px;
+}
+
+#from input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #DBDBDB;
+}
+
+#from input::placeholder {
+    margin-left: 20px;
+}
+
+#from button {
+    width: 50px;
+    height: 35px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #36c;
+}
+
+#message-create {
+    color: red;
+}
+
+.postCard {
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.postCard .title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.postCard .cardSnippet {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
